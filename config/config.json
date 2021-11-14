@@ -1,0 +1,342 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "global-custom-features-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/globalCustomFeatures/GlobalCustomFeaturesApplicationCustomizer.js",
+          "manifest": "./src/extensions/globalCustomFeatures/GlobalCustomFeaturesApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "remo-about-department-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoAboutDepartment/RemoAboutDepartmentWebPart.js",
+          "manifest": "./src/webparts/remoAboutDepartment/RemoAboutDepartmentWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-announcements-rm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoAnnouncementsRm/RemoAnnouncementsRmWebPart.js",
+          "manifest": "./src/webparts/remoAnnouncementsRm/RemoAnnouncementsRmWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-announcements-vm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoAnnouncementsVm/RemoAnnouncementsVmWebPart.js",
+          "manifest": "./src/webparts/remoAnnouncementsVm/RemoAnnouncementsVmWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-ceo-message-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoCeoMessage/RemoCeoMessageWebPart.js",
+          "manifest": "./src/webparts/remoCeoMessage/RemoCeoMessageWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-ceo-message-rm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoCeoMessageRm/RemoCeoMessageRmWebPart.js",
+          "manifest": "./src/webparts/remoCeoMessageRm/RemoCeoMessageRmWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-content-editor-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoContentEditor/RemoContentEditorWebPart.js",
+          "manifest": "./src/webparts/remoContentEditor/RemoContentEditorWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-department-gallery-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoDepartmentGallery/RemoDepartmentGalleryWebPart.js",
+          "manifest": "./src/webparts/remoDepartmentGallery/RemoDepartmentGalleryWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-department-key-contacts-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoDepartmentKeyContacts/RemoDepartmentKeyContactsWebPart.js",
+          "manifest": "./src/webparts/remoDepartmentKeyContacts/RemoDepartmentKeyContactsWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-department-key-people-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoDepartmentKeyPeople/RemoDepartmentKeyPeopleWebPart.js",
+          "manifest": "./src/webparts/remoDepartmentKeyPeople/RemoDepartmentKeyPeopleWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-department-quick-link-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoDepartmentQuickLink/RemoDepartmentQuickLinkWebPart.js",
+          "manifest": "./src/webparts/remoDepartmentQuickLink/RemoDepartmentQuickLinkWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-department-services-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoDepartmentServices/RemoDepartmentServicesWebPart.js",
+          "manifest": "./src/webparts/remoDepartmentServices/RemoDepartmentServicesWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-dept-gallery-grid-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoDeptGalleryGridView/RemoDeptGalleryGridViewWebPart.js",
+          "manifest": "./src/webparts/remoDeptGalleryGridView/RemoDeptGalleryGridViewWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-dept-gallery-vm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoDeptGalleryVm/RemoDeptGalleryVmWebPart.js",
+          "manifest": "./src/webparts/remoDeptGalleryVm/RemoDeptGalleryVmWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-events-announcements-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoEventsAnnouncements/RemoEventsAnnouncementsWebPart.js",
+          "manifest": "./src/webparts/remoEventsAnnouncements/RemoEventsAnnouncementsWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-events-vm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoEventsVm/RemoEventsVmWebPart.js",
+          "manifest": "./src/webparts/remoEventsVm/RemoEventsVmWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-gallery-grid-view-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoGalleryGridView/RemoGalleryGridViewWebPart.js",
+          "manifest": "./src/webparts/remoGalleryGridView/RemoGalleryGridViewWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-gallery-social-media-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoGallerySocialMedia/RemoGallerySocialMediaWebPart.js",
+          "manifest": "./src/webparts/remoGallerySocialMedia/RemoGallerySocialMediaWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-gallery-vm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoGalleryVm/RemoGalleryVmWebPart.js",
+          "manifest": "./src/webparts/remoGalleryVm/RemoGalleryVmWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-hero-banner-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoHeroBanner/RemoHeroBannerWebPart.js",
+          "manifest": "./src/webparts/remoHeroBanner/RemoHeroBannerWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-hero-banner-rm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoHeroBannerRm/RemoHeroBannerRmWebPart.js",
+          "manifest": "./src/webparts/remoHeroBannerRm/RemoHeroBannerRmWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-hero-banner-vm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoHeroBannerVm/RemoHeroBannerVmWebPart.js",
+          "manifest": "./src/webparts/remoHeroBannerVm/RemoHeroBannerVmWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-highlights-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoHighlights/RemoHighlightsWebPart.js",
+          "manifest": "./src/webparts/remoHighlights/RemoHighlightsWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-my-day-routine-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoMyDayRoutine/RemoMyDayRoutineWebPart.js",
+          "manifest": "./src/webparts/remoMyDayRoutine/RemoMyDayRoutineWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-my-personal-quick-link-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoMyPersonalQuickLink/RemoMyPersonalQuickLinkWebPart.js",
+          "manifest": "./src/webparts/remoMyPersonalQuickLink/RemoMyPersonalQuickLinkWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-my-recent-files-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoMyRecentFiles/RemoMyRecentFilesWebPart.js",
+          "manifest": "./src/webparts/remoMyRecentFiles/RemoMyRecentFilesWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-my-team-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoMyTeam/RemoMyTeamWebPart.js",
+          "manifest": "./src/webparts/remoMyTeam/RemoMyTeamWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-my-team-page-header-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoMyTeamPageHeader/RemoMyTeamPageHeaderWebPart.js",
+          "manifest": "./src/webparts/remoMyTeamPageHeader/RemoMyTeamPageHeaderWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-navigations-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoNavigations/RemoNavigationsWebPart.js",
+          "manifest": "./src/webparts/remoNavigations/RemoNavigationsWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-news-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoNews/RemoNewsWebPart.js",
+          "manifest": "./src/webparts/remoNews/RemoNewsWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-news-category-based-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoNewsCategoryBased/RemoNewsCategoryBasedWebPart.js",
+          "manifest": "./src/webparts/remoNewsCategoryBased/RemoNewsCategoryBasedWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-news-rm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoNewsRm/RemoNewsRmWebPart.js",
+          "manifest": "./src/webparts/remoNewsRm/RemoNewsRmWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-news-vm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoNewsVm/RemoNewsVmWebPart.js",
+          "manifest": "./src/webparts/remoNewsVm/RemoNewsVmWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-organizatin-chart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoOrganizatinChart/RemoOrganizatinChartWebPart.js",
+          "manifest": "./src/webparts/remoOrganizatinChart/RemoOrganizatinChartWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-policies-procedures-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoPoliciesProcedures/RemoPoliciesProceduresWebPart.js",
+          "manifest": "./src/webparts/remoPoliciesProcedures/RemoPoliciesProceduresWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-quick-link-manager-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoQuickLinkManager/RemoQuickLinkManagerWebPart.js",
+          "manifest": "./src/webparts/remoQuickLinkManager/RemoQuickLinkManagerWebPart.manifest.json"
+        }
+      ]
+    },
+    "remo-weather-currency-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/remoWeatherCurrency/RemoWeatherCurrencyWebPart.js",
+          "manifest": "./src/webparts/remoWeatherCurrency/RemoWeatherCurrencyWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GlobalCustomFeaturesApplicationCustomizerStrings": "lib/extensions/globalCustomFeatures/loc/{locale}.js",
+    "RemoAboutDepartmentWebPartStrings": "lib/webparts/remoAboutDepartment/loc/{locale}.js",
+    "RemoAnnouncementsRmWebPartStrings": "lib/webparts/remoAnnouncementsRm/loc/{locale}.js",
+    "RemoAnnouncementsVmWebPartStrings": "lib/webparts/remoAnnouncementsVm/loc/{locale}.js",
+    "RemoCeoMessageWebPartStrings": "lib/webparts/remoCeoMessage/loc/{locale}.js",
+    "RemoCeoMessageRmWebPartStrings": "lib/webparts/remoCeoMessageRm/loc/{locale}.js",
+    "RemoContentEditorWebPartStrings": "lib/webparts/remoContentEditor/loc/{locale}.js",
+    "RemoDepartmentGalleryWebPartStrings": "lib/webparts/remoDepartmentGallery/loc/{locale}.js",
+    "RemoDepartmentKeyContactsWebPartStrings": "lib/webparts/remoDepartmentKeyContacts/loc/{locale}.js",
+    "RemoDepartmentKeyPeopleWebPartStrings": "lib/webparts/remoDepartmentKeyPeople/loc/{locale}.js",
+    "RemoDepartmentQuickLinkWebPartStrings": "lib/webparts/remoDepartmentQuickLink/loc/{locale}.js",
+    "RemoDepartmentServicesWebPartStrings": "lib/webparts/remoDepartmentServices/loc/{locale}.js",
+    "RemoDeptGalleryGridViewWebPartStrings": "lib/webparts/remoDeptGalleryGridView/loc/{locale}.js",
+    "RemoDeptGalleryVmWebPartStrings": "lib/webparts/remoDeptGalleryVm/loc/{locale}.js",
+    "RemoEventsAnnouncementsWebPartStrings": "lib/webparts/remoEventsAnnouncements/loc/{locale}.js",
+    "RemoEventsVmWebPartStrings": "lib/webparts/remoEventsVm/loc/{locale}.js",
+    "RemoGalleryGridViewWebPartStrings": "lib/webparts/remoGalleryGridView/loc/{locale}.js",
+    "RemoGallerySocialMediaWebPartStrings": "lib/webparts/remoGallerySocialMedia/loc/{locale}.js",
+    "RemoGalleryVmWebPartStrings": "lib/webparts/remoGalleryVm/loc/{locale}.js",
+    "RemoHeroBannerWebPartStrings": "lib/webparts/remoHeroBanner/loc/{locale}.js",
+    "RemoHeroBannerRmWebPartStrings": "lib/webparts/remoHeroBannerRm/loc/{locale}.js",
+    "RemoHeroBannerVmWebPartStrings": "lib/webparts/remoHeroBannerVm/loc/{locale}.js",
+    "RemoHighlightsWebPartStrings": "lib/webparts/remoHighlights/loc/{locale}.js",
+    "RemoMyDayRoutineWebPartStrings": "lib/webparts/remoMyDayRoutine/loc/{locale}.js",
+    "RemoMyPersonalQuickLinkWebPartStrings": "lib/webparts/remoMyPersonalQuickLink/loc/{locale}.js",
+    "RemoMyRecentFilesWebPartStrings": "lib/webparts/remoMyRecentFiles/loc/{locale}.js",
+    "RemoMyTeamWebPartStrings": "lib/webparts/remoMyTeam/loc/{locale}.js",
+    "RemoMyTeamPageHeaderWebPartStrings": "lib/webparts/remoMyTeamPageHeader/loc/{locale}.js",
+    "RemoNavigationsWebPartStrings": "lib/webparts/remoNavigations/loc/{locale}.js",
+    "RemoNewsWebPartStrings": "lib/webparts/remoNews/loc/{locale}.js",
+    "RemoNewsCategoryBasedWebPartStrings": "lib/webparts/remoNewsCategoryBased/loc/{locale}.js",
+    "RemoNewsRmWebPartStrings": "lib/webparts/remoNewsRm/loc/{locale}.js",
+    "RemoNewsVmWebPartStrings": "lib/webparts/remoNewsVm/loc/{locale}.js",
+    "RemoOrganizatinChartWebPartStrings": "lib/webparts/remoOrganizatinChart/loc/{locale}.js",
+    "RemoPoliciesProceduresWebPartStrings": "lib/webparts/remoPoliciesProcedures/loc/{locale}.js",
+    "RemoQuickLinkManagerWebPartStrings": "lib/webparts/remoQuickLinkManager/loc/{locale}.js",
+    "RemoWeatherCurrencyWebPartStrings": "lib/webparts/remoWeatherCurrency/loc/{locale}.js"
+  }
+}
